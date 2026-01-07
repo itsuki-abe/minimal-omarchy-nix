@@ -37,15 +37,12 @@ in
     (import ./hyprpaper.nix)
     (import ./hypridle.nix)
     (import ./ghostty.nix)
-    (import ./btop.nix)
     (import ./direnv.nix)
     (import ./git.nix)
     (import ./mako.nix)
     (import ./starship.nix)
     (import ./waybar.nix inputs)
     (import ./wofi.nix)
-    (import ./zoxide.nix)
-    (import ./zsh.nix)
   ];
 
   home.file = {
