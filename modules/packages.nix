@@ -47,24 +47,12 @@ let
       powertop
       fastfetch
 
-      # GUIs
-      chromium
-      obsidian
-      vlc
-      signal-desktop
-
       # Development tools
-      github-desktop
       gh
 
       # Containers
       docker-compose
       ffmpeg
-    ]
-    ++ lib.optionals (pkgs.system == "x86_64-linux") [
-      typora
-      dropbox
-      spotify
     ];
 
   # Only allow excluding discretionary packages to prevent breaking the system
