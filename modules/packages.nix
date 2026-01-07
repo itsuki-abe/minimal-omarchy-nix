@@ -42,8 +42,6 @@ let
     [
       # TUIs
       lazygit
-      lazydocker
-      btop
       powertop
       fastfetch
 
@@ -51,7 +49,6 @@ let
       gh
 
       # Containers
-      docker-compose
       ffmpeg
     ];
 

@@ -12,6 +12,5 @@ in
   imports = [
     (import ./hyprland.nix inputs)
     (import ./system.nix)
-    (import ./containers.nix)
   ];
 }
